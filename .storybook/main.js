@@ -5,8 +5,8 @@ module.exports = {
   addons: [
     '@storybook/addon-links',
     '@storybook/addon-essentials',
+    '@storybook/addon-interactions',
     '@storybook/addon-outline',
-    'storybook-dark-mode',
     '@storybook/addon-jest',
     {
       name: '@storybook/addon-storysource',
@@ -31,4 +31,11 @@ module.exports = {
       },
     },
   ],
+  framework: '@storybook/react',
+  core: {
+    builder: '@storybook/builder-webpack5',
+  },
+  features: {
+    storyStoreV7: true,
+  },
 };

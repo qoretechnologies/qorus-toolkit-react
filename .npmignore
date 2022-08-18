@@ -1,8 +1,9 @@
 .storybook
-src
 .gitignore
 *.config.js
 tsconfig.json
 yarn.lock
 node_modules
 yarn-error.log
+__tests
+__viteshot__

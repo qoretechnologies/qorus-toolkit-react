@@ -1,10 +1,9 @@
 {
   "compilerOptions": {
     "lib": ["es2017", "es2018", "es2019", "es2020", "es2021", "DOM"],
-    "module": "commonjs",
+    "module": "esnext",
     "sourceMap": true,
     "moduleResolution": "node",
-    "rootDir": "./src",
     "strict": true,
     "noUnusedLocals": true,
     "noImplicitAny": false,
@@ -22,6 +21,6 @@
     "types": ["node", "react", "react-dom", "jest"],
     "outDir": "dist"
   },
-  "exclude": ["node_modules", "./src/stories/*", "./src/mock/*", "__tests__/*"],
-  "include": ["./src/**/*.ts", "./src/**/*.tsx"]
+  "exclude": ["node_modules", "./src/stories/*", "./src/mock/*", "__tests__/*", "__viteshot__/*"],
+  "include": ["./src/**/*.ts", "./src/**/*.tsx", ".storybook/**/*.tsx"]
 }
