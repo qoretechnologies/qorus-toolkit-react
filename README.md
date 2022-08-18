@@ -1,3 +1,3 @@
-# reqore
+### 🚧 WORK IN PROGRESS 🚧
 
-ReQore is a UI library for Qorus connected apps.
+A library of pre-defined components for communication and management of remote Qorus Integration Engine instance built on top of ReQore
